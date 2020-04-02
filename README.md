@@ -1,6 +1,6 @@
-# CONFIGURAÇÃO DO AMBIENTE DEV
+# :book: Manual de configuração do ambiente DEV
 
-Manual de configuração do ambiente de desenvolvimento Web com NodeJS
+Este manual mostra as instalações das ferramentas básicas para desenvolvimento de aplicações com NodeJS.
 
 ## Ambiente Windows
 
