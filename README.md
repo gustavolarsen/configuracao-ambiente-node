@@ -1,4 +1,4 @@
-# configuacao-ambiente-node
+# CONFIGURAÇÃO DO AMBIENTE DEV
 
 Manual de configuração do ambiente de desenvolvimento Web com NodeJS
 
