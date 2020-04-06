@@ -23,7 +23,6 @@ Se não aparecer, desligue o PowerShell e abra novamente, como Administrador.
 ## Instalar as Ferramentas
 
 - Visual Studio Code
-- Google Chrome
 - NodeJS
 
 #### INSTALAR
@@ -31,7 +30,7 @@ Se não aparecer, desligue o PowerShell e abra novamente, como Administrador.
 1.  Com o PowerShell aberto como Administrador, rode o código abaixo.
 
 ```powershell
-cinst vscode googlechrome nodejs-lts -yf
+cinst vscode nodejs-lts -yf
 ```
 
 Após, feche o PowerShell e procure abrir o Google Chrome e o Visual Studio Code.
@@ -40,13 +39,13 @@ Com o Visual Studio Code aberto, aperte CTRL + J para abrir o terminal integrado
 
 #### Erros Comuns
 
-- Caso haja algum erro na hora da instalação de algum programa, procure desinstalar a ferramenta que deu erro, e instalar novamente. Você pode fazer isso com o comando no PowerShell, por exemplo, se houve erro no google-chrome: `choco uninstall googlechrome -yf`. Se não funcionar você pode tentar desinstalar pelo gerenciador de programas do windows.
+- Caso haja algum erro na hora da instalação de algum programa, procure desinstalar a ferramenta que deu erro, e instalar novamente. Você pode fazer isso com o comando no PowerShell, por exemplo, se houve erro no vscode: `choco uninstall vscode -yf`. Se não funcionar você pode tentar desinstalar pelo gerenciador de programas do windows.
 
 - Algumas vezes, pode dar um erro na internet, na hora de baixar certo programa. Por isso, é importante verificar qual programa deu erro, e procurar desinstalar e instalar novamente.
 
-- Você pode baixar cada programa em seu respectivo site ( Procure no google o site do Chrome para baixar e instalar, ou Visual Studio Code para baixar e instalar, ou NodeJS para baixar e instalar.
+- Você pode baixar cada programa em seu respectivo site ( Procure no google por Visual Studio Code e NodeJS para baixar e instalar.
 
-- Pode ser que o comando `node -v`não funcione, pois, por alguma falha no processo, ele não foi adicionado às variáveis de ambiente. Primeiro, tente reiniciar o Windows. Se não funcionar, tente adicionar manualmente. Abra o PowerShell como Administrador e coloque a essa linha de código. 
+- Pode ser que o comando `node -v`não funcione, pois, por alguma falha no processo, ele não foi adicionado às variáveis de ambiente. Primeiro, feche e abra novamente o PowerShell, ou reinicie o Windows. Se não funcionar, tente adicionar manualmente. Abra o PowerShell como Administrador e coloque a essa linha de código. 
 ```powershell
 SET PATH=C:\Program Files\Nodejs;%PATH%
 ```
